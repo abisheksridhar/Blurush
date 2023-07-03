@@ -1,0 +1,68 @@
+.label{
+    .inputLabel{
+        font-size: 20px;
+        text-transform: capitalize;
+    }
+    .labelRequired{
+        padding:2px;
+        color:#dd3333;
+    }
+
+    .errorLabel{
+        color:#dd3333;
+    }
+
+    .large{
+        font-size: 40px;
+    }
+
+    .regular{
+        font-size: 16px;
+    }
+
+    .red{
+        color:#D40411;
+    }
+
+    .welcomeLabel{
+        font-size: 36px;
+        font-weight: 600;
+        background: linear-gradient(to right,#314B6D, #01D0FE);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .services{
+        font-size: 60px;
+        font-weight: 700;
+        background: linear-gradient(to right,#314B6D, #01D0FE);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .chip{
+        font-size: 12px;
+    }
+
+    .formHeader{
+        font-size: 24px;
+    }
+    @media (max-width:1150px) {
+        .welcomeLabel{
+            font-size: 28px;
+        }
+
+        .large{
+            font-size: 24px;
+        }
+        .services{
+            font-size: 42px;
+        }
+
+        .regular{
+            font-size: 10px;
+        }
+    }
+}

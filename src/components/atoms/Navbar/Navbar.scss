@@ -1,0 +1,22 @@
+.navbar{
+    position: absolute;
+    top:0;
+    left: 0;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 5px 20px;
+    height: 100px;
+    .navbar-item{
+        display: inline-flex;
+        flex-flow: column wrap;
+        justify-self: stretch;
+        justify-content: center;
+        text-align: center;
+        [class^="icon-"]{
+            font-size: 42px;
+            color:#252525;
+        }
+        padding: 5px 20px;
+    }
+}

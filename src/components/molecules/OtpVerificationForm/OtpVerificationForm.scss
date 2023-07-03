@@ -1,0 +1,10 @@
+.verificationForm{
+    input{
+        border-image-source: linear-gradient(to bottom,#3680D7, #05C8FA);
+        border-width: 1px;
+        border-image-slice: 1;
+        &:focus{
+            outline: none;
+        }
+    }
+}
